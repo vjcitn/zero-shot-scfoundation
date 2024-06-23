@@ -163,7 +163,8 @@ Any use of third-party trademarks or logos are subject to those third-party's po
 NA implies whatever mamba/pip could get on 23 june 2024 with the envs set
 according to envs/conda_env.yml (as revised in this fork)
 
------
+```
+----
 Session information updated at 2024-06-23 15:42
 >>> session_info.main()
 
@@ -277,4 +278,5 @@ Python 3.10.14 | packaged by conda-forge | (main, Mar 20 2024, 12:45:18) [GCC 12
 Linux-6.5.0-41-generic-x86_64-with-glibc2.35
 -----
 Session information updated at 2024-06-23 15:43
+```
 

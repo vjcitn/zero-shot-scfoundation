@@ -1,10 +1,11 @@
-name: sc_foundation_evals
+name: sc_foundation_evals_vc
 channels:
   - pytorch
   - nvidia/label/cuda-11.7.0
   - conda-forge
   - bioconda
   - defaults
+  - pip
 dependencies:
   - cuda==11.7.0
   - pytorch==1.13.1
@@ -17,7 +18,8 @@ dependencies:
   - gxx==11.4
   - git-lfs
   - scib
-  - scgpt
   - wcwidth
   - colorlog
-  - PyComplexHeatmap
+  - pip:
+    - scgpt
+    - PyComplexHeatmap

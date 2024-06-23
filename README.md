@@ -1,3 +1,12 @@
+# ABOUT THIS FORK
+
+The notebook for geneformer won't run out of the box.  The envs/conda-env.yml needed a few
+extra entries.  A full session_info result is at the end of this README.
+
+
+
+# THE FOLLOWING IS THE ORIGINAL README
+
 # Foundation models in single-cell biology: evaluating zero-shot capabilities
 
 [![DOI](https://badgen.net/badge/DOI/10.1101%2F2023.10.16.561085/red)](https://www.biorxiv.org/content/10.1101/2023.10.16.561085) [![DOI](https://badgen.net/badge/figshare/10.6084%2Fm9.figshare.24747228/green)](https://doi.org/10.6084/m9.figshare.24747228)
@@ -148,3 +157,124 @@ trademarks or logos is subject to and must follow
 [Microsoft's Trademark & Brand Guidelines](https://www.microsoft.com/en-us/legal/intellectualproperty/trademarks/usage/general).
 Use of Microsoft trademarks or logos in modified versions of this project must not cause confusion or imply Microsoft sponsorship.
 Any use of third-party trademarks or logos are subject to those third-party's policies.
+
+# FULL SESSION_INFO
+
+NA implies whatever mamba/pip could get on 23 june 2024 with the envs set
+according to envs/conda_env.yml (as revised in this fork)
+
+-----
+Session information updated at 2024-06-23 15:42
+>>> session_info.main()
+
+>>> session_info.show(dependencies=True)
+-----
+sc_foundation_evals NA
+session_info        1.0.0
+-----
+IPython                     8.25.0
+PIL                         9.4.0
+PyComplexHeatmap            1.7.4
+accumulation_tree           NA
+aiohttp                     3.9.5
+aiosignal                   1.3.1
+anndata                     0.10.8
+asttokens                   NA
+async_timeout               4.0.3
+attr                        23.2.0
+brotli                      1.1.0
+certifi                     2024.06.02
+cffi                        1.16.0
+charset_normalizer          3.3.2
+colorama                    0.4.6
+colorlog                    NA
+contourpy                   1.2.1
+cycler                      0.12.1
+cython_runtime              NA
+datasets                    2.20.0
+dateutil                    2.9.0
+decorator                   5.1.1
+deprecated                  1.2.14
+dill                        0.3.8
+exceptiongroup              1.2.0
+executing                   2.0.1
+filelock                    3.15.4
+frozenlist                  1.4.1
+fsspec                      2024.5.0
+geneformer                  NA
+google                      NA
+h5py                        3.11.0
+huggingface_hub             0.23.4
+idna                        3.7
+igraph                      0.10.3
+jedi                        0.19.1
+joblib                      1.4.2
+kiwisolver                  1.4.5
+leidenalg                   0.9.1
+llvmlite                    0.42.0
+loompy                      3.0.7
+matplotlib                  3.7.5
+mpl_toolkits                NA
+mpmath                      1.3.0
+multidict                   6.0.5
+multiprocess                0.70.16
+natsort                     8.4.0
+networkx                    3.3
+numba                       0.59.1
+numpy                       1.26.4
+numpy_groupies              0.11.1
+packaging                   24.1
+palettable                  3.3.3
+pandas                      2.2.2
+parso                       0.8.4
+patsy                       0.5.6
+prompt_toolkit              3.0.47
+pure_eval                   0.2.2
+pyarrow                     16.1.0
+pyarrow_hotfix              NA
+pycparser                   2.22
+pydot                       2.0.0
+pygments                    2.18.0
+pyparsing                   3.1.2
+pytz                        2024.1
+pyudorandom                 1.0.0
+requests                    2.32.3
+safetensors                 0.4.3
+scanpy                      1.9.8
+scgpt                       0.2.1
+scib                        1.1.5
+scipy                       1.13.1
+seaborn                     0.13.2
+sitecustomize               NA
+six                         1.16.0
+sklearn                     1.5.0
+socks                       1.7.1
+stack_data                  0.6.3
+statsmodels                 0.14.2
+sympy                       1.12.1
+tdigest                     0.5.2.1
+texttable                   1.7.0
+threadpoolctl               3.5.0
+tokenizers                  0.19.1
+torch                       2.1.2+cu121
+torchdata                   0.7.1
+torchgen                    NA
+torchtext                   0.16.2+cpu
+tqdm                        4.66.4
+traitlets                   5.14.3
+transformers                4.41.2
+typing_extensions           NA
+urllib3                     2.2.2
+wcwidth                     0.2.13
+wrapt                       1.16.0
+xalt_python_pkg_filter      NA
+xxhash                      NA
+yaml                        6.0.1
+yarl                        1.9.4
+zoneinfo                    NA
+-----
+Python 3.10.14 | packaged by conda-forge | (main, Mar 20 2024, 12:45:18) [GCC 12.3.0]
+Linux-6.5.0-41-generic-x86_64-with-glibc2.35
+-----
+Session information updated at 2024-06-23 15:43
+

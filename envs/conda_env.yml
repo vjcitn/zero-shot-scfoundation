@@ -16,3 +16,8 @@ dependencies:
   - packaging
   - gxx==11.4
   - git-lfs
+  - scib
+  - scgpt
+  - wcwidth
+  - colorlog
+  - PyComplexHeatmap

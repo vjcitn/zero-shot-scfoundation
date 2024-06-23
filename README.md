@@ -161,7 +161,17 @@ Any use of third-party trademarks or logos are subject to those third-party's po
 # FULL SESSION_INFO
 
 NA implies whatever mamba/pip could get on 23 june 2024 with the envs set
-according to envs/conda_env.yml (as revised in this fork)
+according to envs/conda_env.yml (as revised in this fork), with the addition
+of 
+
+Geneformer (from https://huggingface.co/ctheodoris/Geneformer)
+```
+commit ead055038810da74c68e1c15ad8a8282a26c0943
+```
+
+and 
+
+https://github.com/vjcitn/zero-shot-scfoundation commits of june 23 2024
 
 ```
 ----
